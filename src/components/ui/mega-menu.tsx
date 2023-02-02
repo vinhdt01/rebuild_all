@@ -15,10 +15,10 @@ type MegaMenuProps = {
 	}[];
 };
 
-const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
+const MegaMenu: React.FC= ({ columns }) => {
 	const { t } = useTranslation("menu");
 	return (
-		<div className="megaMenu shadow-header bg-gray-200 absolute ltr:-left-20 rtl:-right-20 ltr:xl:left-0 rtl:xl:right-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+		<div className="megaMenu shadow-header bg-gray-200 absolute ltr:-left-[50%] rtl:-right-20 ltr:xl:left-[0%] rtl:xl:right-[50%] opacity-0 invisible group-hover:opacity-100 group-hover:visible">
 			<div className="grid grid-cols-5">
 				{columns?.map((column) => (
 					<ul

@@ -6,7 +6,7 @@ module.exports = {
 	},
 	domains: [
 		{
-		  domain: 'http://localhost:3005',
+		  domain: 'https://vinh-develop.d1q228kyov3rfz.amplifyapp.com',
 		  defaultLocale: 'vi',
 		}
 	  ],
