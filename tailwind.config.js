@@ -21,7 +21,6 @@ module.exports = {
         linen: "#FBF1E9",
         linenSecondary: "#ECE7E3",
         olive: "#3D9970",
-        orange:"#c48c46",
         maroon: "#B03060",
         brown: "#C7844B",
         placeholder: "#707070",
@@ -115,7 +114,7 @@ module.exports = {
       body: ["'Open Sans', sans-serif"],
       satisfy: ["'Satisfy', cursive"],
       segoe: ["'Segoe UI', sans-serif"],
-      roboto:["Roboto" ,  "sans-serif" ]
+      Roboto:["'Roboto', sans-serif"]
     },
   },
   plugins: [
@@ -124,3 +123,4 @@ module.exports = {
     }),
   ],
 };
+
