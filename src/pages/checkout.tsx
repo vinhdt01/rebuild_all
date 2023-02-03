@@ -104,13 +104,7 @@ export {getStaticProps} from '@framework/ssr/translation'
 
 // export { getStaticProps } from "@framework/ssr/common";
 // export {getStaticProps} from '@framework/ssr/province'
-const ScheduleGrid = dynamic(
-  () => import("@components/checkout/schedule/schedule-grid")
-);
-const AddressGrid = dynamic(() => import("@components/checkout/address-grid"));
-const ContactGrid = dynamic(
-  () => import("@components/checkout/contact/contact-grid")
-);
+
 const RightSideView = dynamic(
   () => import("@components/checkout/right-side-view")
 );
