@@ -89,6 +89,7 @@ import {
   modernDemoProductBanner as productBanner,
 } from "@data/static/banners";
 import Banner from '@components/banner/banner'
+
 export {getStaticProps} from '@framework/ssr/translation'
 
 // export { getStaticProps } from "@framework/ssr/homepage/modern";

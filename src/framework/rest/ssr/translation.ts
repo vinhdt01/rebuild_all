@@ -1,6 +1,6 @@
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { GetStaticProps } from "next";
-
+import nextI18NextConfig from '../../../../next-i18next.config'
 
 
 // import  axios from 'axios';
@@ -26,7 +26,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }:any) => {
       props: {
         ...(await serverSideTranslations(locale, [
             'common'
-        ])),
+        ] , nextI18NextConfig )),
         data
       },
       

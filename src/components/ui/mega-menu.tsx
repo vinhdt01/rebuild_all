@@ -19,7 +19,7 @@ const MegaMenu: React.FC= ({ columns }) => {
 	const { t } = useTranslation("menu");
 	return (
 		<div className="megaMenu shadow-header bg-gray-200 absolute ltr:-left-[50%] rtl:-right-20 ltr:xl:left-[0%] rtl:xl:right-[50%] opacity-0 invisible group-hover:opacity-100 group-hover:visible">
-			<div className="grid grid-cols-5">
+			<div className="grid grid-cols-6">
 				{columns?.map((column) => (
 					<ul
 						className="even:bg-gray-150 pb-7 2xl:pb-8 pt-6 2xl:pt-7"
@@ -30,7 +30,7 @@ const MegaMenu: React.FC= ({ columns }) => {
 								<li className="mb-1.5">
 									<Link
 										href={columnItem.path}
-										className="block text-sm py-1.5 text-heading font-semibold px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-300"
+										className="block text-sm py-1.5 text-heading font-semibold px-5 xl:px-5 2xl:px-5 hover:text-heading hover:bg-gray-300 "
 									>
 										{t(columnItem.label)}
 									</Link>
@@ -46,7 +46,7 @@ const MegaMenu: React.FC= ({ columns }) => {
 									>
 										<Link
 											href={item.path}
-											className="text-body text-sm block py-1.5 px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-300"
+											className="text-body text-sm block py-1.5 px-5 xl:px-5 2xl:px-5 hover:text-heading hover:bg-gray-300 "
 										>
 											{t(item.label)}
 										</Link>

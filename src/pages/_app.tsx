@@ -157,6 +157,7 @@ import type { NextPage } from "next";
 import PrivateRoute from "@lib/private-route";
 import SocialLoginProvider from "../providers/social-login-provider";
 import SiteLayout from '@components/layout/layout';
+import nextI18NextConfig from '../../next-i18next.config'
 
 function handleExitComplete() {
   if (typeof window !== "undefined") {
@@ -217,5 +218,5 @@ const CustomApp: any = ({ Component, pageProps }: AppPropsWithLayout) => {
 );
 };
 
-export default appWithTranslation(CustomApp);
+export default appWithTranslation(CustomApp , nextI18NextConfig);
 

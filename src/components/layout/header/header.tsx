@@ -31,6 +31,7 @@ const Header: React.FC<Props> = ({
 		setDrawerView,
 		openSearch,
 		openModal,
+		openCart,
 		setModalView,
 	} = useUI();
   const [ isAuthorize ] = useAtom(authorizationAtom);
@@ -92,7 +93,7 @@ const Header: React.FC<Props> = ({
         {totalItems}
       </span> */}
 	  <NewCartButton/>
-					    <div className="mx-2">Giỏ hàng</div>
+					    <div onClick={openCart} className="mx-2">Giỏ hàng</div>
 		            </div>
 		            </div>
 		       </div>

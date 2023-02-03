@@ -15,32 +15,57 @@ export const menu = [
               {
                 id: 1,
                 path: "/search?category=men",
-                label: "menu-t-shirt"
+                label: "Chủng loại"
               },
               {
                 id: 2,
                 path: "/search?category=men",
-                label: "menu-casual-shirts"
+                label: "Nhẫn"
               },
               {
                 id: 3,
                 path: "/search?category=men",
-                label: "menu-formal-shirts"
+                label: "Bông tai"
               },
               {
                 id: 4,
                 path: "/search?category=men",
-                label: "menu-blazwers-coats"
+                label: "Lắc"
               },
               {
                 id: 5,
                 path: "/search?category=men",
-                label: "menu-suits"
+                label: "Vòng"
               },
               {
                 id: 6,
                 path: "/search?category=men",
-                label: "menu-jackets"
+                label: "Kiềng"
+              },
+              {
+                id: 7,
+                path: "/search?category=men",
+                label: "Dây Chuyền"
+              },
+              {
+                id: 8,
+                path: "/search?category=men",
+                label: "Mặt Dây Chuyền"
+              },
+              {
+                id: 9,
+                path: "/search?category=men",
+                label: "Dây Cổ "
+              },
+              {
+                id: 10,
+                path: "/search?category=men",
+                label: "Charm"
+              },
+              {
+                id: 11,
+                path: "/search?category=men",
+                label: "Vàng Tài Lộc"
               }
             ]
           }
@@ -52,49 +77,24 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=men",
-            label: "menu-western-wear",
+            label: "Chất Liệu",
             columnItemItems: [
               {
                 id: 1,
                 path: "/search?category=men",
-                label: "menu-dresses"
+                label: "Vàng"
               },
               {
                 id: 2,
                 path: "/search?category=men",
-                label: "menu-jumpsuits"
+                label: "Bạc"
               },
               {
                 id: 3,
                 path: "/search?category=men",
-                label: "menu-tops-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=men",
-                label: "menu-shorts-skirts"
-              },
-              {
-                id: 5,
-                path: "/search?category=men",
-                label: "menu-shurgs"
-              },
-              {
-                id: 6,
-                path: "/search?category=men",
-                label: "menu-blazers"
+                label: "Platinum"
               }
             ]
-          },
-          {
-            id: 2,
-            path: "/search?category=men",
-            label: "menu-plus-size"
-          },
-          {
-            id: 3,
-            path: "/search?category=men",
-            label: "menu-sunglasses-frames"
           }
         ]
       },
@@ -104,52 +104,52 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=sneakers",
-            label: "menu-footwear",
+            label: "Dòng Hàng",
             columnItemItems: [
               {
                 id: 1,
                 path: "/search?category=sneakers",
-                label: "menu-flats"
+                label: "Trang Sức Đính Kim Cương"
               },
               {
                 id: 2,
                 path: "/search?category=sneakers",
-                label: "menu-casual-shoes"
+                label: "Trang Sức Đính ECZ"
               },
               {
                 id: 3,
                 path: "/search?category=sneakers",
-                label: "menu-heels"
+                label: "Trang Sức Đính Đá Quý Và Bán Quý"
               },
               {
                 id: 4,
                 path: "/search?category=sneakers",
-                label: "menu-boots"
+                label: "Trang Sức Đính Công Nghệ Ý"
+              }
+              ,
+              {
+                id: 5,
+                path: "/search?category=sneakers",
+                label: "Trang Sức Đính Ngọc Trai"
+              },
+              {
+                id: 6,
+                path: "/search?category=sneakers",
+                label: "Trang Sức Đính CZ"
+              },
+              {
+                id: 7,
+                path: "/search?category=sneakers",
+                label: "Trang Sức Không Đính Đá"
+              },
+              {
+                id: 8,
+                path: "/search?category=sneakers",
+                label: "Kim Cương Viên"
               }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=sports",
-            label: "menu-sports-active-wear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=sports",
-                label: "menu-clothing"
-              },
-              {
-                id: 2,
-                path: "/search?category=sports",
-                label: "menu-footwear"
-              },
-              {
-                id: 3,
-                path: "/search?category=sports",
-                label: "menu-sports-accessories"
-              }
-            ]
-          }
+          
         ]
       },
       {
@@ -158,52 +158,81 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-lingerie-sleepwear",
+            label: "Bộ Sưu Tập",
             columnItemItems: [
               {
                 id: 1,
                 path: "/search?category=women",
-                label: "menu-bra"
+                label: "Thần Tài 2023"
               },
               {
                 id: 2,
                 path: "/search?category=women",
-                label: "menu-briefs"
+                label: "Flowrous"
               },
               {
                 id: 3,
                 path: "/search?category=women",
-                label: "menu-sleepwear"
-              }
-            ]
-          },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-belt-scarves",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-makeup"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-skincare"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-premium-beauty"
+                label: "Lucky Mickeyr"
               },
               {
                 id: 4,
-                path: "/search?category=women",
-                label: "menu-lipsticks"
-              }
+                path: "Nàng Tiên Cá Ariel",
+                label: "Lucky Mickeyr"
+              },
+              {
+                  id:5,
+                  path:'#',
+                  label:'Alice In Wonderland',
+              },
+              {
+                  id:6,
+                  path:'#',
+                  label:'The Merrier',
+              },
+              {
+                  id:7,
+                  path:'#',
+                  label:'Sứ Giả Mùa Xuân',
+              },
+              {
+                  id:8,
+                  path:'#',
+                  label:'Nụ Tầm Xuân',
+              },
+              {
+                  id:9,
+                  path:'#',
+                  label:'Thần Tài 2022',
+              },
+              {
+                  id:10,
+                  path:'#',
+                  label:'Tinker Bell',
+              },
+              {
+                  id:11,
+                  path:'#',
+                  label:'Style X Chou Chou',
+              },
+              {
+                  id:12,
+                  path:'#',
+                  label:'Sweet Spring',
+              },
+              {
+                  id:13,
+                  path:'#',
+                  label:'Goddesses',
+              },
+              {
+                  id:14,
+                  path:'#',
+                  label:'Nàng Thu',
+              },
             ]
-          }
+          },
+         
         ]
       },
       {
@@ -212,47 +241,93 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=watch",
-            label: "menu-gadgets",
+            label: "Thương Hiệu",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-smart-wearables"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-headphones"
-              }
+               id:1,
+               path:'#',
+               label:'Thương Hiệu',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'PNJ',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'PNJSILVER',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Style By PNJ',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Disney|PNJ',
+            }
             ]
           },
+          
+          
+        ]
+      },
+      {
+        id: 6,
+        columnItems: [
           {
-            id: 2,
+            id: 1,
             path: "/search?category=watch",
-            label: "menu-jewellers",
+            label: "Trang Sức Phong Thủy",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-fashion-jewellers"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-fine-jewellers"
-              }
+                id:1,
+                path:'#',
+                label:'Trang Sức Theo Cung',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Trang Sức Theo Mệnh',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Trang Sức Trẻ Em',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Trang Sức Nam',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Trang Sức Tín Ngưỡng',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Online Exclusive',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Bộ Trang Sức',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Best Seller',
+            }
             ]
           },
-          {
-            id: 3,
-            path: "/search?category=bags",
-            label: "menu-backpacks"
-          },
-          {
-            id: 4,
-            path: "/search?category=bags",
-            label: "menu-handbags-wallets"
-          }
+          
+          
         ]
       }
     ]
@@ -268,50 +343,26 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=men",
-            label: "menu-top-wear",
+            label: "Theo Mục Đích",
             columnItemItems: [
               {
                 id: 1,
                 path: "/search?category=men",
-                label: "menu-t-shirt"
+                label: "Cầu Hôn"
               },
               {
                 id: 2,
                 path: "/search?category=men",
-                label: "menu-casual-shirts"
+                label: "Kết Hôn"
               },
               {
                 id: 3,
                 path: "/search?category=men",
-                label: "menu-formal-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=men",
-                label: "menu-blazwers-coats"
-              },
-              {
-                id: 5,
-                path: "/search?category=men",
-                label: "menu-suits"
-              },
-              {
-                id: 6,
-                path: "/search?category=men",
-                label: "menu-jackets"
+                label: "Kỷ Niệm"
               }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=men",
-            label: "menu-belt-scarves"
-          },
-          {
-            id: 3,
-            path: "/search?category=men",
-            label: "menu-watches-wearables"
-          }
+          
         ]
       },
       {
@@ -320,50 +371,46 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=men",
-            label: "menu-western-wear",
+            label: "Chủng Loại",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=men",
-                label: "menu-dresses"
-              },
-              {
-                id: 2,
-                path: "/search?category=men",
-                label: "menu-jumpsuits"
-              },
-              {
-                id: 3,
-                path: "/search?category=men",
-                label: "menu-tops-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=men",
-                label: "menu-shorts-skirts"
-              },
-              {
-                id: 5,
-                path: "/search?category=men",
-                label: "menu-shurgs"
-              },
-              {
-                id: 6,
-                path: "/search?category=men",
-                label: "menu-blazers"
-              }
+                id:1,
+                  path:'#',
+                label:'Nhẫn',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Nhẫn Cặp',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Bông Tai',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Lắc',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Vòng Tay',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Dây Cổ',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Kiềng',
+            },
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=men",
-            label: "menu-plus-size"
-          },
-          {
-            id: 3,
-            path: "/search?category=men",
-            label: "menu-sunglasses-frames"
-          }
+          
         ]
       },
       {
@@ -372,52 +419,26 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=sneakers",
-            label: "menu-footwear",
+            label: "Dòng Trang Sức",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=sneakers",
-                label: "menu-flats"
-              },
-              {
-                id: 2,
-                path: "/search?category=sneakers",
-                label: "menu-casual-shoes"
-              },
-              {
-                id: 3,
-                path: "/search?category=sneakers",
-                label: "menu-heels"
-              },
-              {
-                id: 4,
-                path: "/search?category=sneakers",
-                label: "menu-boots"
-              }
+                id:1,
+                path:'#',
+                label:'Kim Cương',
+            },
+            {
+                id:1,
+              path:'#',
+                label:'ECZ-CZ',
+            },
+            {
+                id:1,
+              path:'#',
+                label:'Không Đính Đá',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=sports",
-            label: "menu-sports-active-wear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=sports",
-                label: "menu-clothing"
-              },
-              {
-                id: 2,
-                path: "/search?category=sports",
-                label: "menu-footwear"
-              },
-              {
-                id: 3,
-                path: "/search?category=sports",
-                label: "menu-sports-accessories"
-              }
-            ]
-          }
+         
         ]
       },
       {
@@ -426,52 +447,36 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-lingerie-sleepwear",
+            label: "Chất Liệu",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-bra"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-briefs"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-sleepwear"
-              }
+                id:1,
+                  path:'#',
+                label:'Vàng 24K',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Vàng 22K',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Vàng 18K',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Vàng 14K',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Vàng 10K',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-belt-scarves",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-makeup"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-skincare"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-premium-beauty"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-lipsticks"
-              }
-            ]
-          }
+          
         ]
       },
       {
@@ -480,47 +485,76 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=watch",
-            label: "menu-gadgets",
+            label: "Bộ Sưu Tập",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-smart-wearables"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-headphones"
-              }
+                id:1,
+                  path:'#', 
+                label:'The Moment',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Báu Vật Phu Thê',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Trầu Cau',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Hạnh Phúc',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Long Phụng Sum Vầy',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Vũ Khúc Tình Yêu',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Thiên Duyên',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Bốn Mùa Yêu Thương',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Mùa Yêu',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Tơ Duyên',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Son Sắt Phu Thê',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Thất Duyên Tơ Hồng',
+            },
+            {
+                id:1,
+                path:'#', 
+                label:'Hoa Tình Yêu',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=watch",
-            label: "menu-jewellers",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-fashion-jewellers"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-fine-jewellers"
-              }
-            ]
-          },
-          {
-            id: 3,
-            path: "/search?category=bags",
-            label: "menu-backpacks"
-          },
-          {
-            id: 4,
-            path: "/search?category=bags",
-            label: "menu-handbags-wallets"
-          }
+          
         ]
       }
     ]
@@ -536,47 +570,50 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=bags",
-            label: "menu-gadgets",
+            label: "Thương Hiệu Thụy Sỹ",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-smart-wearables"
-              },
-              {
-                id: 2,
-                path: "/search?category=sports",
-                label: "menu-headphones"
-              }
+                id:1,
+                  path:'#',
+                label:'Jowissa',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Silvana',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Longines',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Tissot',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Jacques Du Manoir',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Claude Bernad',
+            },
+
+            {
+                id:1,
+                path:'#',
+                label:'Swiss Military',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=watch",
-            label: "menu-jewellers",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-fashion-jewellers"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-fine-jewellers"
-              }
-            ]
-          },
-          {
-            id: 3,
-            path: "/search?category=bags",
-            label: "menu-backpacks"
-          },
-          {
-            id: 4,
-            path: "/search?category=watch",
-            label: "menu-handbags-wallets"
-          }
+         
         ]
       },
       {
@@ -585,50 +622,58 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-top-wear",
+            label: "Thương Hiệu Thời Trang",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-t-shirt"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-casual-shirts"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-formal-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-blazwers-coats"
-              },
-              {
-                id: 5,
-                path: "/search?category=women",
-                label: "menu-suits"
-              },
-              {
-                id: 6,
-                path: "/search?category=women",
-                label: "menu-jackets"
-              }
+                id:1,
+                  path:'#',
+                label:'Gucci',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Emily Carter',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Olivia Burton',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Just Cavalli',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Kenneth Cole',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Avi-8',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Micheal Kors',
+            }
+            ,
+            {
+                id:1,
+                path:'#',
+                label:'Fossil',
+            },
+            
+            {
+                id:1,
+                path:'#',
+                label:'Daniel Wellington',
+            },
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-belt-scarves"
-          },
-          {
-            id: 3,
-            path: "/search?category=women",
-            label: "menu-watches-wearables"
-          }
+          
         ]
       },
       {
@@ -637,50 +682,53 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-footwear",
+            label: "Thương Hiệu Yêu Thích",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-flats"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-casual-shoes"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-heels"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-boots"
-              }
-            ]
-          },
-          {
-            id: 2,
-            path: "/search?category=sneakers",
-            label: "menu-sports-active-wear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=sneakers",
-                label: "menu-clothing"
-              },
-              {
-                id: 2,
-                path: "/search?category=sneakers",
-                label: "menu-footwear"
-              },
-              {
-                id: 3,
-                path: "/search?category=sneakers",
-                label: "menu-sports-accessories"
-              }
+                 id:1,
+                  path:'#', 
+                label:'Citizen',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Casio',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Orient',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Skagen',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Lancaster',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Hamilton',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Calvin Klein',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Anonimo',
+            },
+            {
+                id:1, 
+                path:'#', 
+                label:'Emporio Amani',
+            }
             ]
           }
         ]
@@ -691,50 +739,26 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-western-wear",
+            label: "Giới Tính",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-dresses"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-jumpsuits"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-tops-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-shorts-skirts"
-              },
-              {
-                id: 5,
-                path: "/search?category=women",
-                label: "menu-shurgs"
-              },
-              {
-                id: 6,
-                path: "/search?category=women",
-                label: "menu-blazers"
-              }
+                id:1,
+                  path:'#',
+                label:'Nam',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Nữ',
+            },
+            {
+                id:1,
+                path:'#',
+                label:'Unisex',
+            }
             ]
-          },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-plus-size"
-          },
-          {
-            id: 3,
-            path: "/search?category=women",
-            label: "menu-sunglasses-frames"
           }
+          
         ]
       },
       {
@@ -743,52 +767,31 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=women",
-            label: "menu-lingerie-sleepwear",
+            label: "Chủng Loại",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-bra"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-briefs"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-sleepwear"
-              }
+                id:1,
+                label:'Đồng Hồ',
+                path:'#',
+            },
+            {
+                id:1,
+                label:'Mắt Kính',
+                path:'#',
+            },
+            {
+                id:1,
+                label:'Đồng Hồ Cặp',
+                path:'#',
+            },
+            {
+                id:1,
+                label:'Phụ Kiện',
+                path:'#',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-belt-scarves",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-makeup"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-skincare"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-premium-beauty"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-lipsticks"
-              }
-            ]
-          }
+          
         ]
       }
     ]
@@ -804,47 +807,33 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=watch",
-            label: "menu-gadgets",
+            label: "Gợi Ý Quà Tặng",
             columnItemItems: [
               {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-smart-wearables"
-              },
-              {
-                id: 2,
-                path: "/search?category=sports",
-                label: "menu-headphones"
-              }
+                id:1,
+                  path:"#",
+                label:'Cho Nàng',
+            },
+            {
+                id:1,
+                path:"#",
+                label:'Cho Chàng',
+            }, {
+                id:1,
+                path:"#",
+                label:'Cho Cha',
+            }, {
+                id:1,
+                path:"#",
+                label:'Cho Mẹ',
+            }, {
+                id:1,
+                path:"#",
+                label:'Cho Bé',
+            }
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=watch",
-            label: "menu-jewellers",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=watch",
-                label: "menu-fashion-jewellers"
-              },
-              {
-                id: 2,
-                path: "/search?category=watch",
-                label: "menu-fine-jewellers"
-              }
-            ]
-          },
-          {
-            id: 3,
-            path: "/search?category=bags",
-            label: "menu-backpacks"
-          },
-          {
-            id: 4,
-            path: "/search?category=bags",
-            label: "menu-handbags-wallets"
-          }
+          
         ]
       },
       {
@@ -853,219 +842,76 @@ export const menu = [
           {
             id: 1,
             path: "/search?category=men",
-            label: "menu-top-wear",
+            label: "Quà Tặng Doanh Nghiệp",
             columnItemItems: [
               {
                 id: 1,
                 path: "/search?category=men",
-                label: "menu-t-shirt"
+                label: "Phiếu Quà Tặng"
               },
               {
-                id: 2,
-                path: "/search?category=men",
-                label: "menu-casual-shirts"
-              },
-              {
-                id: 3,
-                path: "/search?category=men",
-                label: "menu-formal-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=men",
-                label: "menu-blazwers-coats"
-              },
-              {
-                id: 5,
-                path: "/search?category=men",
-                label: "menu-suits"
-              },
-              {
-                id: 6,
-                path: "/search?category=men",
-                label: "menu-jackets"
-              }
+                id:1,
+                  path:"#",
+                label:'Quà Tặng Phong Thủy',
+            }, {
+                id:1,
+                path:"#",
+                label:'Tượng Phong Thủy',
+            }, {
+                id:1,
+                path:"#",
+                label:'Trang Phong Thủy',
+            }, {
+                id:1,
+                path:"#",
+                label:'Cài Áo Doanh Nhân',
+            },
             ]
           },
-          {
-            id: 2,
-            path: "/search?category=men",
-            label: "menu-belt-scarves"
-          },
-          {
-            id: 3,
-            path: "/search?category=watch",
-            label: "menu-watches-wearables"
-          }
+          
         ]
       },
-      {
-        id: 3,
-        columnItems: [
-          {
-            id: 1,
-            path: "/search?category=sneakers",
-            label: "menu-footwear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=sneakers",
-                label: "menu-flats"
-              },
-              {
-                id: 2,
-                path: "/search?category=sneakers",
-                label: "menu-casual-shoes"
-              },
-              {
-                id: 3,
-                path: "/search?category=sneakers",
-                label: "menu-heels"
-              },
-              {
-                id: 4,
-                path: "/search?category=sneakers",
-                label: "menu-boots"
-              }
-            ]
-          },
-          {
-            id: 2,
-            path: "/search?category=men",
-            label: "menu-sports-active-wear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=men",
-                label: "menu-clothing"
-              },
-              {
-                id: 2,
-                path: "/search?category=men",
-                label: "menu-footwear"
-              },
-              {
-                id: 3,
-                path: "/search?category=sports",
-                label: "menu-sports-accessories"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        id: 4,
-        columnItems: [
-          {
-            id: 1,
-            path: "/search?category=men",
-            label: "menu-western-wear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=men",
-                label: "menu-dresses"
-              },
-              {
-                id: 2,
-                path: "/search?category=men",
-                label: "menu-jumpsuits"
-              },
-              {
-                id: 3,
-                path: "/search?category=men",
-                label: "menu-tops-shirts"
-              },
-              {
-                id: 4,
-                path: "/search?category=men",
-                label: "menu-shorts-skirts"
-              },
-              {
-                id: 5,
-                path: "/search?category=men",
-                label: "menu-shurgs"
-              },
-              {
-                id: 6,
-                path: "/search?category=men",
-                label: "menu-blazers"
-              }
-            ]
-          },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-plus-size"
-          },
-          {
-            id: 3,
-            path: "/search?category=sunglass",
-            label: "menu-sunglasses-frames"
-          }
-        ]
-      },
-      {
-        id: 5,
-        columnItems: [
-          {
-            id: 1,
-            path: "/search?category=women",
-            label: "menu-lingerie-sleepwear",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-bra"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-briefs"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-sleepwear"
-              }
-            ]
-          },
-          {
-            id: 2,
-            path: "/search?category=women",
-            label: "menu-belt-scarves",
-            columnItemItems: [
-              {
-                id: 1,
-                path: "/search?category=women",
-                label: "menu-makeup"
-              },
-              {
-                id: 2,
-                path: "/search?category=women",
-                label: "menu-skincare"
-              },
-              {
-                id: 3,
-                path: "/search?category=women",
-                label: "menu-premium-beauty"
-              },
-              {
-                id: 4,
-                path: "/search?category=women",
-                label: "menu-lipsticks"
-              }
-            ]
-          }
-        ]
-      }
+      
+      
     ]
   },
   {
     id: 5,
-    path: "/search",
-    label: "Thương Hiệu"
-  },
+    path: "/",
+    label: "Thương Hiệu",
+    columns: [
+      {
+        id: 1,
+        columnItems: [
+          {
+            id: 1,
+            path: "/search?category=watch",
+            label: "Gợi Ý Quà Tặng",
+            columnItemItems: [
+              {
+                id:1,
+                label:'PNJ',
+                path:"#",
+            },
+             {
+                id:1,
+                label:'PNJSILVER',
+                path:"#",
+            }, {
+                id:1,
+                label:'Style By PNJ',
+                path:"#",
+            }, {
+                id:1,
+                label:'Disney|PNJ',
+                path:"#",
+            },
+          ]
+        }
+      ]
+    
+  }]},
+ 
   {
     id: 6,
     path: "/shops",
@@ -1075,80 +921,7 @@ export const menu = [
     id: 7,
     path: "/",
     label: "Khuyến Mãi",
-    subMenu: [
-      {
-        id: 1,
-        path: "/",
-        label: "menu-users",
-        subMenu: [
-          {
-            id: 1,
-            path: "/my-account",
-            label: "menu-my-account"
-          },
-          {
-            id: 2,
-            path: "/signin",
-            label: "menu-sign-in"
-          },
-          {
-            id: 3,
-            path: "/signup",
-            label: "menu-sign-up"
-          },
-          {
-            id: 4,
-            path: "/forget-password",
-            label: "menu-forget-password"
-          }
-        ]
-      },
-      {
-        id: 2,
-        path: "/faq",
-        label: "menu-faq"
-      },
-      {
-        id: 3,
-        path: "/privacy",
-        label: "menu-privacy-policy"
-      },
-      {
-        id: 4,
-        path: "/terms",
-        label: "menu-terms-condition"
-      },
-      {
-        id: 5,
-        path: "/contact-us",
-        label: "menu-contact-us"
-      },
-      {
-        id: 6,
-        path: "/checkout",
-        label: "menu-checkout"
-      },
-      {
-        id: 7,
-        path: "/collections/on-sale",
-        label: "menu-collection"
-      },
-      {
-        id: 8,
-        path: "/search",
-        label: "menu-category"
-      },
-      {
-        id: 9,
-        path: "/my-account/orders",
-        label: "menu-order"
-      },
-      {
-        id: 10,
-        path: "/404",
-        label: "menu-404"
-      }
-    ]
+  
   }
 ];
 
@@ -1576,33 +1349,85 @@ export const mobileMenu = [
      
     ]
   }, 
+ 
   {
     id: 5,
-    path: "/search",
-    label: "Thương hiệu",
-    subMenu:[
+    path: "/search?category=adssf",
+    label: "Thương Hiệu",
+    subMenu: [
       {
         id: 1,
-        path: "/search",
-        label: "PNJ",
+        path: "/search?category=men",
+        label: "Thương Hiệu",
+        subMenu: [
+          {
+            id: 1,
+            path: "/search?category=men",
+            label: "Gợi ý quà tặng"
+          },
+          {
+            id: 2,
+            path: "/search?category=men",
+            label: "Quà Tặng Doanh Nghiệp"
+          },
+          {
+            id: 3,
+            path: "/search?category=men",
+            label: "Phiếu Quà Tặng"
+          },
+          {
+            id: 4,
+            path: "/search?category=men",
+            label: "Quà tặng Phong Thủy",
+            subMenu: [
+              {
+                id: 1,
+                path: "/search?category=men",
+                label: "Tượng Phong Thủy"
+              },
+              {
+                id: 2,
+                path: "/search?category=men",
+                label: "Tranh Phong Thủy"
+              },
+              {
+                id: 3,
+                path: "/search?category=men",
+                label: "Cài Áo Doanh Nhân"
+              },
+              {
+                id: 4,
+                path: "/search?category=men",
+                label: "Xem Tất Cả"
+              },
+            ]
+          },
+        ]
+       
       },
       {
         id: 2,
-        path: "/search",
-        label: "PNJSILVER",
+        path: "/search?category=women",
+        label: "Quà tặng doanh nghiệp"
       },
       {
         id: 3,
-        path: "/search",
-        label: "STYLE By PNJ",
+        path: "/search?category=women",
+        label: "Phiếu quà tặng"
       },
       {
         id: 4,
-        path: "/search",
-        label: "Disney|PNJ",
-      }
+        path: "/search?category=women",
+        label: "Quà tặng phong thủy",
+      
+      },
+  
+      
+      
+    
+     
     ]
-  },
+  }, 
   {
     id: 6,
     path: "/shops",

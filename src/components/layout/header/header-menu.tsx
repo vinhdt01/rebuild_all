@@ -4,7 +4,7 @@
 
 // import 'tippy.js/dist/tippy.css';
 // import { useUI } from "@contexts/ui.context";
-// import { jewelry1  , jewelry2 , jewelry3 , jewelry4 , jewelry5} from "@data/static/testmenu";
+import { jewelry1  , jewelry2 , jewelry3 , jewelry4 , jewelry5} from "@data/static/testmenu";
 
 
 // const showSubMenu = (x) => {
@@ -205,7 +205,7 @@ interface MenuProps {
 const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
     const {
 		
-		openSearch
+		openSearch 
 	
 	} = useUI();
 	const { t } = useTranslation("menu");
