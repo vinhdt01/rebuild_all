@@ -1,4 +1,4 @@
-// import Image from 'next'
+import Image from 'next/image'
 const Banner:React.FC = () => {
     return (
         <>

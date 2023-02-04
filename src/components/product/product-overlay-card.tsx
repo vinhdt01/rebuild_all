@@ -218,11 +218,11 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
           className={`relative flex justify-center items-center p-4 h-full 3xl:min-h-[330px] ${indexes.includes(index) && variant === "fashion" ? "lg:col-span-2" : ""}`}
           title='sfsdfdssfds'
         >
-          <img
+          <Image
             src="https://cdn.pnj.io/images/thumbnails/300/300/detailed/124/gvxmxmc000267-vong-tay-kim-tien-vang-y-18k-dinh-da-cz-pnj-01.png"
-            // width={size}
-            // height={size}
-            // loading={imgLoading}
+            width={215}
+            height={215}
+            loading={imgLoading}
             // alt={product?.name || "Product Image"}
             className="object-cover transition duration-500 ease-in-out transform group-hover:scale-110"
           />
