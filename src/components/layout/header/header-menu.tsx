@@ -4,7 +4,7 @@
 
 // import 'tippy.js/dist/tippy.css';
 // import { useUI } from "@contexts/ui.context";
-// import { jewelry1  , jewelry2 , jewelry3 , jewelry4 , jewelry5} from "@data/static/testmenu";
+import { jewelry1  , jewelry2 , jewelry3 , jewelry4 , jewelry5} from "@data/static/testmenu";
 
 
 // const showSubMenu = (x) => {
@@ -266,27 +266,20 @@ const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
 					)}
 				</div>
 			))}
-      
-
-
-<button
-          className="flex items-center justify-center flex-shrink-0 h-auto relative focus:outline-none"
-          onClick={openSearch}
-          aria-label="search-button"
-        >
-<div className="relative h-[35px] py-[8px] w-[360px]">
-    <input     
+      <div className="relative h-[35px] py-[8px] w-[360px]">
+    {/* <input     onClick={openSearch}
                className=" border-solid border-2  h-[35px] bg-[#ededed] rounded-[100px] w-[100%] pl-[10px] placeholder:italic outline-none "
                type="text"
                placeholder="Tìm kiếm nhanh"
-             />
+             /> */}
+
+	       <div  onClick={openSearch} className="border-solid border-2  h-[35px] bg-[#ededed] rounded-[100px] w-[100%] pl-[10px]">Tìm kiếm nhanh</div>
               <img
                className=" absolute top-[18px] right-4 bg-[#ededed]"
                src="https://cdn.pnj.io/images/image-update/layout/mobile/find-icon.svg"
                alt="Tìm kiếm nhanh"
              />
 </div>
-        </button>
 		</nav>
 	);
 };
