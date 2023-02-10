@@ -96,7 +96,7 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
 			// 	</button>
 			// </form>
 			<input type="text"
-							className="text-heading outline-none w-full h-12 lg:h-14 placeholder-gray-400 text-sm lg:text-base leading-normal"
+						className=""
 						placeholder="Tìm kiếm nhanh"
 						aria-label="Search"
 						autoComplete="off"
