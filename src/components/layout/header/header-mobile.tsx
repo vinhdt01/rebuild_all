@@ -14,7 +14,8 @@ const HeaderMobile:React.FC<Props> = ({openSearch}) => {
 							onClick={openSearch}
 							aria-label="search-button"
 						>
-									<input className="w-[100%] h-[28px] flex-1  rounded-2xl pl-2 pr-7 outline-none border-[1px] border-slate-100 bg-[#ededed] placeholder:text-[13px]" type="text" placeholder="Tìm kiếm nhanh"/>
+									{/* <input className="w-[100%] h-[28px] flex-1  rounded-2xl pl-2 pr-7 outline-none border-[1px] border-slate-100 bg-[#ededed] placeholder:text-[13px]" type="text" placeholder="Tìm kiếm nhanh"/> */}
+									<div className="w-[100%] h-[28px] flex-1  rounded-2xl pl-2 pr-7  border-[1px] border-slate-100 bg-[#ededed] ">Tìm kiếm nhanh</div>
 
 						</button>
 			<img

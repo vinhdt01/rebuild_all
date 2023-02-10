@@ -86,7 +86,7 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
 						autoComplete="off"
 						ref={ref}
 						{...rest}
-						
+						autoFocus
 					/>
 				</label>
 				<button

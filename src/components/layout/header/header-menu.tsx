@@ -267,13 +267,11 @@ const HeaderMenu: React.FC<MenuProps> = ({ data, className }) => {
 				</div>
 			))}
       <div className="relative h-[35px] py-[8px] w-[360px]">
-    {/* <input     onClick={openSearch}
+    <input     onClick={openSearch}
                className=" border-solid border-2  h-[35px] bg-[#ededed] rounded-[100px] w-[100%] pl-[10px] placeholder:italic outline-none "
                type="text"
                placeholder="Tìm kiếm nhanh"
-             /> */}
-
-	       <div  onClick={openSearch} className="border-solid border-2  h-[35px] bg-[#ededed] rounded-[100px] w-[100%] pl-[10px]">Tìm kiếm nhanh</div>
+             />
               <img
                className=" absolute top-[18px] right-4 bg-[#ededed]"
                src="https://cdn.pnj.io/images/image-update/layout/mobile/find-icon.svg"
