@@ -1,6 +1,6 @@
 import Link from "@components/ui/link";
 import SearchIcon from "@components/icons/search-icon";
-import UserIcon from "@components/icons/user-icon";
+import PromotionIcon from '@components/icons/promotion-icon'
 import MenuIcon from "@components/icons/menu-icon";
 import HomeIcon from "@components/icons/home-icon";
 import NotificationIcon from '@components/icons/notification-icon'
@@ -58,7 +58,7 @@ const BottomNavigation: React.FC = () => {
         >
           <MenuIcon />
         </button>
-
+        <PromotionIcon/>
         <button
           className="flex items-center justify-center flex-shrink-0 h-auto relative focus:outline-none"
           onClick={openSearch}
@@ -70,8 +70,9 @@ const BottomNavigation: React.FC = () => {
           <HomeIcon />
         </Link>
         <CartButton />
+
         <NotificationIcon/>
-        <AuthMenu
+        {/* <AuthMenu
           isAuthorized={isAuthorize}
           href={ROUTES.ACCOUNT}
           className="flex-shrink-0"
@@ -82,7 +83,8 @@ const BottomNavigation: React.FC = () => {
           }}
         >
           <UserIcon />
-        </AuthMenu>
+        </AuthMenu> */}
+
       </div>
       <Drawer
         placement={dir === "rtl" ? "right" : "left"}
