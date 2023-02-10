@@ -95,12 +95,6 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
 			// 		<IoCloseOutline className="w-6 h-6" />
 			// 	</button>
 			// </form>
-			<form
-				className="relative ltr:pr-12 rtl:pl-12 ltr:md:pr-14 rtl:md:pl-14 bg-white overflow-hidden rounded-md w-full"
-				noValidate
-				role="search"
-				onSubmit={onSubmit}
-			>
 			<input type="text"
 							className="text-heading outline-none w-full h-12 lg:h-14 placeholder-gray-400 text-sm lg:text-base leading-normal"
 						placeholder="Tìm kiếm nhanh"
@@ -109,7 +103,6 @@ const SearchBox = React.forwardRef<HTMLInputElement, SearchProps>(
 						ref={ref}
 						{...rest}
 			/>
-			</form>
 		);
 	}
 );
